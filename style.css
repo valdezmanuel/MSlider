@@ -13,15 +13,21 @@
   height: 200px;
   position: relative;
   background: #f1f1f1;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
 .MSlider-item{
-  display: inline-block;
+  display: inline-flex;
   width: 150px;
   height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.MSlider-item:nth-child(2n+1){
+  background: rgb(40, 107, 143);
 }
 
 .MSlider #left{
