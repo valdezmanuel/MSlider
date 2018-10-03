@@ -1,2 +1,2 @@
 # MSlider
-Slider library to Javascript
+Slider library for Javascript
